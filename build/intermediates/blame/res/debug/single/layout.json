@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\fpdisplay.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\fpdisplay.xml"
+    },
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\huellas.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\huellas.xml"
+    },
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\croping_selector.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\croping_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\capturafacial.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\capturafacial.xml"
+    },
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\facial2.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\facial2.xml"
+    },
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\activity_firma.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\activity_firma.xml"
+    },
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\David M Dimas\\Desktop\\wp\\BasicSampleV2\\res\\layout\\activity_splash.xml"
+    }
+]

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.authentec.java.ptapi.samples.basicsample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <uses-library android:name="ptapi" />
+        <uses-library android:name="com.taztag.fingerprint_library" />
+
+        <activity
+            android:name="com.authentec.java.ptapi.samples.basicsample.MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.authentec.java.ptapi.samples.basicsample.MainActivity2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.authentec.java.ptapi.samples.basicsample.facial"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.authentec.java.ptapi.samples.basicsample.firma"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.authentec.java.ptapi.samples.basicsample.fac2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.authentec.java.ptapi.samples.basicsample.SampleActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.authentec.java.ptapi.samples.basicsample.SplashActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.authentec.java.ptapi.samples.basicsample.FPDisplay"
+            android:label="FPDisplay" />
+    </application>
+
+</manifest>

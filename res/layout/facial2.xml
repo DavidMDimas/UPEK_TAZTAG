@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pethoalpar.zxingexample.MainActivity">
+
+    <Button
+        android:id="@+id/btnQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Escaneo de QR"/>
+
+    <Button
+        android:id="@+id/btnFacial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnQR"
+        android:layout_alignBottom="@+id/btnQR"
+        android:layout_toEndOf="@+id/btnQR"
+        android:text="Captura Facial"/>
+
+    <Button
+        android:id="@+id/btnFirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnFacial"
+        android:layout_alignBottom="@+id/btnFacial"
+        android:layout_toEndOf="@+id/btnFacial"
+        android:text="Captura de Firma"/>
+
+    <Button
+        android:id="@+id/btnDactilar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnFirma"
+        android:layout_alignBottom="@+id/btnFirma"
+        android:layout_toEndOf="@+id/btnFirma"
+        android:text="Captura Dactilar"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/btnDactilar"
+        android:src="@drawable/usuario_login"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_alignBottom="@+id/btnDactilar"
+        android:layout_toStartOf="@+id/imageView"
+        android:text="Admin"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnNextFirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_select_image"
+        android:layout_alignBottom="@+id/btn_select_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:text="Siguiente" />
+
+    <Button
+        android:id="@+id/btn_select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Capturar Fotografía"/>
+
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:scaleType="fitXY"/>
+
+</RelativeLayout>
